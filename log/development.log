@@ -1,0 +1,57 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-25 18:34:41) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-25 18:34:42) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-25 18:35:11) [GET]
+
+NameError (uninitialized constant IndexController):
+  
+
+Rendered rescues/_trace (34.7ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-08-25 18:35:25) [GET]
+
+ActionView::MissingTemplate (Missing template index/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-08-25 18:35:26) [GET]
+
+ActionView::MissingTemplate (Missing template index/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-08-25 18:35:34) [GET]
+Rendering index/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-08-25 18:35:34) [GET]
+Rendering index/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2009-08-25 18:35:35) [GET]
+Rendering index/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/]
